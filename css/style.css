@@ -1,14 +1,52 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+section {
+    margin-top: 20px;
+}
+
+
+/* LAYOUT */
+
 .container {
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+/* STYLE */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #056CF2;
+    border: 1px solid white;
+    color: white;
+}
+
+.inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #04D960;
+    color: white;
+    margin: 1px;
+}
+
+.col-6-active {
+    padding: 10px;
+    background-color: #056CF2;
+    border: 1px solid white;
 }
